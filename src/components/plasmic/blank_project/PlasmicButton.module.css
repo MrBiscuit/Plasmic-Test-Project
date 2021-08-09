@@ -1,0 +1,35 @@
+.root {
+  background: rgba(23, 143, 255, 1);
+  filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.043));
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  align-content: unset;
+  flex-wrap: nowrap;
+  border-radius: 2px;
+  padding: 4px /* plasmic-token: KKuBQ4VrJ */;
+}
+.root:hover {
+  background: #40a9ff;
+}
+.root:active {
+  height: auto;
+  background: #096dd9;
+}
+.text {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  height: auto;
+}
